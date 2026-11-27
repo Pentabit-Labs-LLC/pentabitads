@@ -2,6 +2,11 @@
 
 Versions are `Major.Minor.Patch.Build`. `scripts/release.sh` adds each entry automatically from the commit messages.
 
+## 0.1.0.2
+- Production URLs for release
+- In progress
+- Fix version badge
+
 ## 0.1.0.1
 - Make release script executable
 - Production URLs: separate ads and reporting hosts

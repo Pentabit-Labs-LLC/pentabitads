@@ -1,0 +1,184 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../pentabit-ads-video/0.1.0.2/pentabit-ads-video-0.1.0.2.module",
+    "group": "com.pentabitlabs.pentabitads",
+    "module": "pentabit-ads-video",
+    "version": "0.1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.pentabitlabs.pentabitads",
+          "module": "pentabit-ads",
+          "version": {
+            "requires": "0.1.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pentabit-ads-video-release.aar",
+          "url": "pentabit-ads-video-android-0.1.0.2.aar",
+          "size": 7488,
+          "sha512": "c013c7725fd97d596443f048812e6c3a6f526444e37c440ac3b73f46bb8eddeeba0533e59497c7150b8d45fdf661972e9402add249fd7f8eb32e399a984fc2ba",
+          "sha256": "0e2f5e70e5fea7ff2bb3f42b024c0bd6a293c5a9b440dc1e08be8cb58e0518ce",
+          "sha1": "07c0b85eb01dc7a2c725f373e1dc49f3f1c28b45",
+          "md5": "138187935e8358c2bb34984ef160356d"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer",
+          "version": {
+            "requires": "1.8.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-ui",
+          "version": {
+            "requires": "1.8.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "com.pentabitlabs.pentabitads",
+          "module": "pentabit-ads",
+          "version": {
+            "requires": "0.1.0.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "pentabit-ads-video-release.aar",
+          "url": "pentabit-ads-video-android-0.1.0.2.aar",
+          "size": 7488,
+          "sha512": "c013c7725fd97d596443f048812e6c3a6f526444e37c440ac3b73f46bb8eddeeba0533e59497c7150b8d45fdf661972e9402add249fd7f8eb32e399a984fc2ba",
+          "sha256": "0e2f5e70e5fea7ff2bb3f42b024c0bd6a293c5a9b440dc1e08be8cb58e0518ce",
+          "sha1": "07c0b85eb01dc7a2c725f373e1dc49f3f1c28b45",
+          "md5": "138187935e8358c2bb34984ef160356d"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "pentabit-ads-video-android-0.1.0.2-sources.jar",
+          "url": "pentabit-ads-video-android-0.1.0.2-sources.jar",
+          "size": 3407,
+          "sha512": "ae5b128702443dcda11bcbe8e150ac04e96d58cf36ba33af56342f1257fdd1e038430b9b7d144fb2e6f9c698b32fa0bcfa6d82211e300dcff35009519f51ef4e",
+          "sha256": "ea80afa8b8001ae2773c7813951443af61a0f7ef1fa74721d0c7ff9fb02ade61",
+          "sha1": "7c574d54441d33c3d3a19d3bd877a2be87884e92",
+          "md5": "e584790ac3462aec01ae2984341fd6c1"
+        }
+      ]
+    }
+  ]
+}

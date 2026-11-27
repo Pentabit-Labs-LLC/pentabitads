@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../pentabit-core/0.1.0.2/pentabit-core-0.1.0.2.module",
+    "group": "com.pentabitlabs.pentabitads",
+    "module": "pentabit-core",
+    "version": "0.1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pentabit-core-iosX64Main-0.1.0.2.klib",
+          "url": "pentabit-core-iosx64-0.1.0.2.klib",
+          "size": 329599,
+          "sha512": "26a77b6959f12972b47ed14d222928eb25b34f1de7ca051469488419e6083fd3e1d12f41d70ade91768ea7bfc2b066e491aa901fc619da79c96f22c888300e25",
+          "sha256": "e43ef46ca5957247cdebbc5184262489d1f0af3a99ca4b317a324e141ba2d30d",
+          "sha1": "e35d5a48e8186f56fdcb8f3c4a1482cc8b6a5ebd",
+          "md5": "890bd5e89ae8bdd8b8fbce6ebe68c387"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "pentabit-core-iosx64-0.1.0.2-sources.jar",
+          "url": "pentabit-core-iosx64-0.1.0.2-sources.jar",
+          "size": 52450,
+          "sha512": "2483b0331df5a854849193aefdd6c97c512a3fef8092536b44f682a91036d5e7598870f9e7c606e0b684da3b1cd78e131b1ecd4cf86e8f4283bc767d713710c7",
+          "sha256": "3646b816f87f00b8114159a7db675057b939981eef94e216b430e030644e005b",
+          "sha1": "90e8de1b1e1de37356ea4cff1e0d056c473f20f0",
+          "md5": "0c984c063ff5c7ff7baeb032c47a36a4"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pentabit-core-iosx64-0.1.0.2-metadata.jar",
+          "url": "pentabit-core-iosx64-0.1.0.2-metadata.jar",
+          "size": 2494,
+          "sha512": "8024a576a6fc0ed1312520c998df1f658bff5d078021301879cbc3794813f21079951cbae20372a98378f84cc450fe0b2172022acb8ea7a554715e27931e8540",
+          "sha256": "b6b9b87db8aa70b1ff80c4b1044363840ea4e24681d50a38526d36c92263ae24",
+          "sha1": "b1044d29152ec3432644cfa6acd472131271dcc6",
+          "md5": "2d05a22a26c9910c541a9841ac333950"
+        }
+      ]
+    }
+  ]
+}

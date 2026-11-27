@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../pentabit-core/0.1.0.2/pentabit-core-0.1.0.2.module",
+    "group": "com.pentabitlabs.pentabitads",
+    "module": "pentabit-core",
+    "version": "0.1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pentabit-core-jvm-0.1.0.2.jar",
+          "url": "pentabit-core-jvm-0.1.0.2.jar",
+          "size": 380759,
+          "sha512": "bdf338ac7382475a67f55e2bc0b9c15e4eb765daa06e762346ac14496a61b3c985ca68672d3dd0255bf412f59a5b80f28eea433aa404b27c387feb2ca4f72e6f",
+          "sha256": "abb39f7ae1f9f6ee7145561adb29d9cafc9c3db3a236c1a76f61d7768d28d96d",
+          "sha1": "12a78bcece8cac24689a0f41a28d579350751722",
+          "md5": "657c48f1977e18adfb90451c869a3a7e"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pentabit-core-jvm-0.1.0.2.jar",
+          "url": "pentabit-core-jvm-0.1.0.2.jar",
+          "size": 380759,
+          "sha512": "bdf338ac7382475a67f55e2bc0b9c15e4eb765daa06e762346ac14496a61b3c985ca68672d3dd0255bf412f59a5b80f28eea433aa404b27c387feb2ca4f72e6f",
+          "sha256": "abb39f7ae1f9f6ee7145561adb29d9cafc9c3db3a236c1a76f61d7768d28d96d",
+          "sha1": "12a78bcece8cac24689a0f41a28d579350751722",
+          "md5": "657c48f1977e18adfb90451c869a3a7e"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "pentabit-core-jvm-0.1.0.2-sources.jar",
+          "url": "pentabit-core-jvm-0.1.0.2-sources.jar",
+          "size": 52446,
+          "sha512": "bf7bb3ec38055a492152ca0075ab9586e7b1dfd39dc669ccf11d0dabe015e3cb2620cf2c2dc507cb90da461ceb7a5503442b487d994af49868e6c98193919dfb",
+          "sha256": "6088522e5b7267ea9209e03e62609450fad26239947aceb9c86ee0db246e0c1c",
+          "sha1": "f5363b20718ea5afef7fefc5d613af7cb617b055",
+          "md5": "ea3613c8555e918933b6179492cce050"
+        }
+      ]
+    }
+  ]
+}

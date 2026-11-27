@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../pentabit-core/0.1.0.2/pentabit-core-0.1.0.2.module",
+    "group": "com.pentabitlabs.pentabitads",
+    "module": "pentabit-core",
+    "version": "0.1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pentabit-core-iosSimulatorArm64Main-0.1.0.2.klib",
+          "url": "pentabit-core-iossimulatorarm64-0.1.0.2.klib",
+          "size": 329677,
+          "sha512": "40bf7f895cb74e6091dd324c453a363241b1a5c3464930fc830e1291b0241ce9636f703b7f890ae7cd34ae0bca8ecf9c35608b1979c705c962bb0aade562ead8",
+          "sha256": "596596f32b117ef099c0e6108e1a74e581f312d11d8337618a60dbba1d2adf80",
+          "sha1": "473730fcdfaf64b4d9634ce3f1943f308bbabf2b",
+          "md5": "76c8ea3f6a763754208cd23e5b954a95"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "pentabit-core-iossimulatorarm64-0.1.0.2-sources.jar",
+          "url": "pentabit-core-iossimulatorarm64-0.1.0.2-sources.jar",
+          "size": 52450,
+          "sha512": "2483b0331df5a854849193aefdd6c97c512a3fef8092536b44f682a91036d5e7598870f9e7c606e0b684da3b1cd78e131b1ecd4cf86e8f4283bc767d713710c7",
+          "sha256": "3646b816f87f00b8114159a7db675057b939981eef94e216b430e030644e005b",
+          "sha1": "90e8de1b1e1de37356ea4cff1e0d056c473f20f0",
+          "md5": "0c984c063ff5c7ff7baeb032c47a36a4"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pentabit-core-iossimulatorarm64-0.1.0.2-metadata.jar",
+          "url": "pentabit-core-iossimulatorarm64-0.1.0.2-metadata.jar",
+          "size": 2494,
+          "sha512": "8024a576a6fc0ed1312520c998df1f658bff5d078021301879cbc3794813f21079951cbae20372a98378f84cc450fe0b2172022acb8ea7a554715e27931e8540",
+          "sha256": "b6b9b87db8aa70b1ff80c4b1044363840ea4e24681d50a38526d36c92263ae24",
+          "sha1": "b1044d29152ec3432644cfa6acd472131271dcc6",
+          "md5": "2d05a22a26c9910c541a9841ac333950"
+        }
+      ]
+    }
+  ]
+}

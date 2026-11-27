@@ -1,0 +1,280 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.pentabitlabs.pentabitads",
+    "module": "pentabit-ads-video",
+    "version": "0.1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "com.pentabitlabs.pentabitads",
+          "module": "pentabit-ads",
+          "version": {
+            "requires": "0.1.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pentabit-ads-video-metadata-0.1.0.2.jar",
+          "url": "pentabit-ads-video-0.1.0.2.jar",
+          "size": 2396,
+          "sha512": "abc0775ff88ce1445551f30bf76b03a103992e14eb00b35426b11a787ce0ab60aa4a7b19138d97770a20f2431390b92f74bd242edae48d3846b62d4a655055ce",
+          "sha256": "2c01a74f1e80e1abe575c8cdded15c79e8ea327bf41bf95cc08ec343f2287fa6",
+          "sha1": "a771053320687f546efcd3bdbcd674a80b160a61",
+          "md5": "8597eb1985480246b816c2c02f127ae9"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "pentabit-ads-video-kotlin-0.1.0.2-sources.jar",
+          "url": "pentabit-ads-video-0.1.0.2-sources.jar",
+          "size": 3487,
+          "sha512": "e739dc4cd46951854b92d6f8bb3d75d5a929e89b3306933d55ee02ba842a05797f685c3b3618eb27f80824d6c0258b4a7c771e5f0b7479d1ea4cdf6d62187d35",
+          "sha256": "c37926b0da7693f0b6d633de3e588442adfc74b712ccda10df06b7770de6f34a",
+          "sha1": "5eec9a2b46d75716539e27c761416107c463361e",
+          "md5": "472fc16be861361b55dab8104c42e93b"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../pentabit-ads-video-android/0.1.0.2/pentabit-ads-video-android-0.1.0.2.module",
+        "group": "com.pentabitlabs.pentabitads",
+        "module": "pentabit-ads-video-android",
+        "version": "0.1.0.2"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../pentabit-ads-video-android/0.1.0.2/pentabit-ads-video-android-0.1.0.2.module",
+        "group": "com.pentabitlabs.pentabitads",
+        "module": "pentabit-ads-video-android",
+        "version": "0.1.0.2"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../pentabit-ads-video-android/0.1.0.2/pentabit-ads-video-android-0.1.0.2.module",
+        "group": "com.pentabitlabs.pentabitads",
+        "module": "pentabit-ads-video-android",
+        "version": "0.1.0.2"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pentabit-ads-video-iosarm64/0.1.0.2/pentabit-ads-video-iosarm64-0.1.0.2.module",
+        "group": "com.pentabitlabs.pentabitads",
+        "module": "pentabit-ads-video-iosarm64",
+        "version": "0.1.0.2"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pentabit-ads-video-iosarm64/0.1.0.2/pentabit-ads-video-iosarm64-0.1.0.2.module",
+        "group": "com.pentabitlabs.pentabitads",
+        "module": "pentabit-ads-video-iosarm64",
+        "version": "0.1.0.2"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pentabit-ads-video-iosarm64/0.1.0.2/pentabit-ads-video-iosarm64-0.1.0.2.module",
+        "group": "com.pentabitlabs.pentabitads",
+        "module": "pentabit-ads-video-iosarm64",
+        "version": "0.1.0.2"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pentabit-ads-video-iossimulatorarm64/0.1.0.2/pentabit-ads-video-iossimulatorarm64-0.1.0.2.module",
+        "group": "com.pentabitlabs.pentabitads",
+        "module": "pentabit-ads-video-iossimulatorarm64",
+        "version": "0.1.0.2"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pentabit-ads-video-iossimulatorarm64/0.1.0.2/pentabit-ads-video-iossimulatorarm64-0.1.0.2.module",
+        "group": "com.pentabitlabs.pentabitads",
+        "module": "pentabit-ads-video-iossimulatorarm64",
+        "version": "0.1.0.2"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pentabit-ads-video-iossimulatorarm64/0.1.0.2/pentabit-ads-video-iossimulatorarm64-0.1.0.2.module",
+        "group": "com.pentabitlabs.pentabitads",
+        "module": "pentabit-ads-video-iossimulatorarm64",
+        "version": "0.1.0.2"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pentabit-ads-video-iosx64/0.1.0.2/pentabit-ads-video-iosx64-0.1.0.2.module",
+        "group": "com.pentabitlabs.pentabitads",
+        "module": "pentabit-ads-video-iosx64",
+        "version": "0.1.0.2"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pentabit-ads-video-iosx64/0.1.0.2/pentabit-ads-video-iosx64-0.1.0.2.module",
+        "group": "com.pentabitlabs.pentabitads",
+        "module": "pentabit-ads-video-iosx64",
+        "version": "0.1.0.2"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pentabit-ads-video-iosx64/0.1.0.2/pentabit-ads-video-iosx64-0.1.0.2.module",
+        "group": "com.pentabitlabs.pentabitads",
+        "module": "pentabit-ads-video-iosx64",
+        "version": "0.1.0.2"
+      }
+    }
+  ]
+}

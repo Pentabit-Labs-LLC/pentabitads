@@ -1,0 +1,202 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../pentabit-platform/0.1.0.2/pentabit-platform-0.1.0.2.module",
+    "group": "com.pentabitlabs.pentabitads",
+    "module": "pentabit-platform",
+    "version": "0.1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.pentabitlabs.pentabitads",
+          "module": "pentabit-core",
+          "version": {
+            "requires": "0.1.0.2"
+          }
+        },
+        {
+          "group": "app.cash.sqldelight",
+          "module": "runtime",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-darwin",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "app.cash.sqldelight",
+          "module": "native-driver",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "app.cash.sqldelight",
+          "module": "runtime",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.16.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pentabit-platform-iosArm64Main-0.1.0.2.klib",
+          "url": "pentabit-platform-iosarm64-0.1.0.2.klib",
+          "size": 70141,
+          "sha512": "3fada54cc12adfcd3eb13b8e2a0a4f6e2659c7874aaf293c9c1f5007bb0c13fdbbb961e502d9d152bbd4805d1593a9891094a3c43463591dd72e31c88d55cf10",
+          "sha256": "146a7817210bd5064a1a230d0b993373265147386a5baae047b6a4a90bf4844e",
+          "sha1": "81b679905ecdbb91a77f0706529250a62acc602e",
+          "md5": "61d38d80a3337306f20ebab8c77a58d8"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "pentabit-platform-iosarm64-0.1.0.2-sources.jar",
+          "url": "pentabit-platform-iosarm64-0.1.0.2-sources.jar",
+          "size": 14427,
+          "sha512": "1015aa0d6d3234d25d7217badb4e5c6ae318be6b3de50f530206d2a014cf69124e7638a9e693308cfdbc0545c029596e0060e6b7842779a76435c19d27a5d1b7",
+          "sha256": "2504287728aa940981e3b2ea80ebc257a56fb4ad48dca922a5cb10ab5c5f3eed",
+          "sha1": "37b9eabb8b99eb3dbfa5628e328273ef66261aba",
+          "md5": "d8aceb78cba0dae0dc28e9b3030afec1"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.pentabitlabs.pentabitads",
+          "module": "pentabit-core",
+          "version": {
+            "requires": "0.1.0.2"
+          }
+        },
+        {
+          "group": "app.cash.sqldelight",
+          "module": "runtime",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-darwin",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "app.cash.sqldelight",
+          "module": "native-driver",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "app.cash.sqldelight",
+          "module": "runtime",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.16.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pentabit-platform-iosarm64-0.1.0.2-metadata.jar",
+          "url": "pentabit-platform-iosarm64-0.1.0.2-metadata.jar",
+          "size": 3657,
+          "sha512": "60d25f815d284228fa27d34ca8f4b85d7d220484f835d97298f8977ab0e14dc8e67406126a727d20926f78822c8c54d7b196f0be8ce719e6e4dcb8d592101406",
+          "sha256": "57a7c0a538d23c00899f6ad0d2b39abc25779d9e5dcc61db099c55a98e32aa6f",
+          "sha1": "606763afb5c42b13b305565342300e309f9dac7b",
+          "md5": "57827e803391ee6693ca855e806dc0e1"
+        }
+      ]
+    }
+  ]
+}
