@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../pentabit-ads-video/0.1.0.1/pentabit-ads-video-0.1.0.1.module",
+    "group": "com.pentabitlabs.pentabitads",
+    "module": "pentabit-ads-video",
+    "version": "0.1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.pentabitlabs.pentabitads",
+          "module": "pentabit-ads",
+          "version": {
+            "requires": "0.1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pentabit-ads-video-iosArm64Main-0.1.0.1.klib",
+          "url": "pentabit-ads-video-iosarm64-0.1.0.1.klib",
+          "size": 48961,
+          "sha512": "8521cf892ca09177233d5f43fa9f2df7108a15e792697952576be8e774de1e4c5a90aa566e7072516d07176a5c0dbbe36c0b00cc55755d5a33169c739cbdf476",
+          "sha256": "7048cb6ad19f0fd25e9e6d71c9299091b3808d9bd9ae0b11a97163e8af63f7a4",
+          "sha1": "d9af1dd23f7ed45136df7ad8482bc14c25f6dfc5",
+          "md5": "708c59c9d16a62afc3147c0e2a0fff8c"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "pentabit-ads-video-iosarm64-0.1.0.1-sources.jar",
+          "url": "pentabit-ads-video-iosarm64-0.1.0.1-sources.jar",
+          "size": 3487,
+          "sha512": "88a1f0a1b758700ed810f87ab8b76c523f689a52a027fa4317e8e27fe84bcf54487681697ba95de3561e7857414236e2e59a1d9639aea1afe32d0c5544376c65",
+          "sha256": "e5f86269ba71368c74b7e302581c914501284975a9f5fc19824cb513a69cae6e",
+          "sha1": "e94af20c2816d654007f74d84c8d7e4e296baf2c",
+          "md5": "acc8c10917b5d719c098b8f0c8368dbc"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.pentabitlabs.pentabitads",
+          "module": "pentabit-ads",
+          "version": {
+            "requires": "0.1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pentabit-ads-video-iosarm64-0.1.0.1-metadata.jar",
+          "url": "pentabit-ads-video-iosarm64-0.1.0.1-metadata.jar",
+          "size": 3046,
+          "sha512": "2866122e1588c9c6c705d1d24c035068492b96d29413e19ccf5c91a06b9c185e5dfbaf89ceae2192b01e99b5a8798f2f0ede4605c2244bf62b921ab4014fddba",
+          "sha256": "42d4212c410637e4dfbbad8cb12936789601fc6659567dd23c5acd152cbc5208",
+          "sha1": "b9a7f13029a75b7fb445ff582c30bfe45de6200f",
+          "md5": "40bddb78094c9582adb481ad6b059b90"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../pentabit-ads-video/0.1.0.1/pentabit-ads-video-0.1.0.1.module",
+    "group": "com.pentabitlabs.pentabitads",
+    "module": "pentabit-ads-video",
+    "version": "0.1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.pentabitlabs.pentabitads",
+          "module": "pentabit-ads",
+          "version": {
+            "requires": "0.1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pentabit-ads-video-iosSimulatorArm64Main-0.1.0.1.klib",
+          "url": "pentabit-ads-video-iossimulatorarm64-0.1.0.1.klib",
+          "size": 49027,
+          "sha512": "620dbca586b221c0c333c3285c263730460850d308c3f5d1bd8eea6008084472a52aa16402102d186cb91567404eed79e5dfbdf4019349f744208a8cdee85c7e",
+          "sha256": "bd80b429c8d00dee7f44dcb8c6fb7c68553914633e52e8cea74fb4ee36aaeab6",
+          "sha1": "8115c809ffcc035489da055bf78c9ca9f1600b72",
+          "md5": "24855798f267edc7a2f44735b01a3c37"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "pentabit-ads-video-iossimulatorarm64-0.1.0.1-sources.jar",
+          "url": "pentabit-ads-video-iossimulatorarm64-0.1.0.1-sources.jar",
+          "size": 3487,
+          "sha512": "88a1f0a1b758700ed810f87ab8b76c523f689a52a027fa4317e8e27fe84bcf54487681697ba95de3561e7857414236e2e59a1d9639aea1afe32d0c5544376c65",
+          "sha256": "e5f86269ba71368c74b7e302581c914501284975a9f5fc19824cb513a69cae6e",
+          "sha1": "e94af20c2816d654007f74d84c8d7e4e296baf2c",
+          "md5": "acc8c10917b5d719c098b8f0c8368dbc"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.pentabitlabs.pentabitads",
+          "module": "pentabit-ads",
+          "version": {
+            "requires": "0.1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pentabit-ads-video-iossimulatorarm64-0.1.0.1-metadata.jar",
+          "url": "pentabit-ads-video-iossimulatorarm64-0.1.0.1-metadata.jar",
+          "size": 3046,
+          "sha512": "8f63cf9063fadcdbb37f1f290de4b6ef782cb67fe7340f700eb1edcfe6cd8cc70c6e8b7f2f1bdcc69a0efae31ea622f78a1e7614e735305538c8b7402e0ae6f5",
+          "sha256": "3838d234e5be1d6a42a198e2a47505cad8c80fa232dca49f211567f9254b6924",
+          "sha1": "5549e8e3fea832cbed802c72e3c060a5e82481f4",
+          "md5": "72afa0d0c2b4cebe9cf1e11dc83c84b3"
+        }
+      ]
+    }
+  ]
+}

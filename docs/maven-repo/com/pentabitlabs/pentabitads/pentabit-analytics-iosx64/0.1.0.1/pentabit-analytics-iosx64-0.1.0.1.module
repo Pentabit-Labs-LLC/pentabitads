@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../pentabit-analytics/0.1.0.1/pentabit-analytics-0.1.0.1.module",
+    "group": "com.pentabitlabs.pentabitads",
+    "module": "pentabit-analytics",
+    "version": "0.1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.pentabitlabs.pentabitads",
+          "module": "pentabit-core",
+          "version": {
+            "requires": "0.1.0.1"
+          }
+        },
+        {
+          "group": "com.pentabitlabs.pentabitads",
+          "module": "pentabit-platform",
+          "version": {
+            "requires": "0.1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pentabit-analytics-iosX64Main-0.1.0.1.klib",
+          "url": "pentabit-analytics-iosx64-0.1.0.1.klib",
+          "size": 48719,
+          "sha512": "858bfa5ac400fdf46161689795de6614bf13d0a38d8bd9dbb1dc720d28958eef4eadc3b9172c1740bb904761bddbb66df5d25436125b8415cdb21eac2b210dce",
+          "sha256": "37e3112d11f7945e5db8e36f8d839eadf6cb2195d31db2acbac0e5f6d19b32a8",
+          "sha1": "7281240180e0de4e0c5a905d82067c540bcdbe81",
+          "md5": "247dd449ac32500cccfea2e53dca1c74"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "pentabit-analytics-iosx64-0.1.0.1-sources.jar",
+          "url": "pentabit-analytics-iosx64-0.1.0.1-sources.jar",
+          "size": 10788,
+          "sha512": "332fe9f9ef693118347eabf38d3fc64f0eec9bef58be1c76cc2bacbabdecd692e61d803b1a0717ad512d0f6277ced99b0f0670caca09c8d9eb19a1b138c908b1",
+          "sha256": "7b1fc7cbb8b682514c4a8bd65093aa9cd545d3f7d3451b21413cb69f90ab7bf2",
+          "sha1": "82627577a691efee091f6b466ef6563eaac55cff",
+          "md5": "c292d76d4b923b370c470246554d4805"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.pentabitlabs.pentabitads",
+          "module": "pentabit-core",
+          "version": {
+            "requires": "0.1.0.1"
+          }
+        },
+        {
+          "group": "com.pentabitlabs.pentabitads",
+          "module": "pentabit-platform",
+          "version": {
+            "requires": "0.1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pentabit-analytics-iosx64-0.1.0.1-metadata.jar",
+          "url": "pentabit-analytics-iosx64-0.1.0.1-metadata.jar",
+          "size": 2512,
+          "sha512": "ea568872d3021cdd2b91201218635c4145b95ab2d4fbaf817b6845117393bf459afa4ff0b4561997fb066a0a56982e09cd816202e9a4e20ef428d72d16299f53",
+          "sha256": "922219520eb2204ed6423501111f3a4c0a0a89729fdb2a9a1739b7460b7cc962",
+          "sha1": "87030eb6aaf97d90ec0d0ea476a99190b887c9ef",
+          "md5": "de43f18f0b0903ad97a8e281a88a8d10"
+        }
+      ]
+    }
+  ]
+}

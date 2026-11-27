@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../pentabit-ads/0.1.0.1/pentabit-ads-0.1.0.1.module",
+    "group": "com.pentabitlabs.pentabitads",
+    "module": "pentabit-ads",
+    "version": "0.1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.pentabitlabs.pentabitads",
+          "module": "pentabit-core",
+          "version": {
+            "requires": "0.1.0.1"
+          }
+        },
+        {
+          "group": "com.pentabitlabs.pentabitads",
+          "module": "pentabit-platform",
+          "version": {
+            "requires": "0.1.0.1"
+          }
+        },
+        {
+          "group": "com.pentabitlabs.pentabitads",
+          "module": "pentabit-analytics",
+          "version": {
+            "requires": "0.1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pentabit-ads-iosArm64Main-0.1.0.1.klib",
+          "url": "pentabit-ads-iosarm64-0.1.0.1.klib",
+          "size": 190355,
+          "sha512": "28a14d531bd1a5fc76e5eb2f27b1d35567032fcec7182c94ec27517735412a23060f8c7896f213cc4ffeecc41dee999e54d3006cff72d5c0679091b9f55c83f3",
+          "sha256": "8de44c3df4276cf72d06ff1f77a6999b4ded77f17c72af9dd4d5fc8b78b8effe",
+          "sha1": "a5f1967b2894be4b346551c8a44aff2a382dfd65",
+          "md5": "b317240d6219cebffd5fbcf58fddadac"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "pentabit-ads-iosarm64-0.1.0.1-sources.jar",
+          "url": "pentabit-ads-iosarm64-0.1.0.1-sources.jar",
+          "size": 23838,
+          "sha512": "723b5eac0651407206c19b45648af36ee5e153a0ecc195620f483427a74b714b11f4ffe301c8cfbae26dbb81efb98fc357593eb0e84e7b3c00b93f7ce08e24a1",
+          "sha256": "251f471ab7098fc2e861a932e5650ff056c6b6b6102fb3713f3f74e0dedb3374",
+          "sha1": "9218996099abd31828673e277077374d42f100d5",
+          "md5": "876a8016b8d883fff775a4c021137ae4"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.pentabitlabs.pentabitads",
+          "module": "pentabit-core",
+          "version": {
+            "requires": "0.1.0.1"
+          }
+        },
+        {
+          "group": "com.pentabitlabs.pentabitads",
+          "module": "pentabit-platform",
+          "version": {
+            "requires": "0.1.0.1"
+          }
+        },
+        {
+          "group": "com.pentabitlabs.pentabitads",
+          "module": "pentabit-analytics",
+          "version": {
+            "requires": "0.1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pentabit-ads-iosarm64-0.1.0.1-metadata.jar",
+          "url": "pentabit-ads-iosarm64-0.1.0.1-metadata.jar",
+          "size": 6419,
+          "sha512": "31c268f9f16fd3781005a87a95b9b3f8ba0928b6525998f3178c9dd4bdcc87814e476b3656e43a07e22ecc4f2c59fbfa70d7ad5080d7a43411aab1cb1f34d665",
+          "sha256": "730eb40f9c90dbc3cd511b079a65f53ef725eb6b6eafdf1a57047bec1ad6d2fc",
+          "sha1": "8bf2f65a34139d484c840a7e011e731dcc87683c",
+          "md5": "309ea907dcaeb480198d535d2c90017d"
+        }
+      ]
+    }
+  ]
+}

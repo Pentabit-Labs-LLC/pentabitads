@@ -1,0 +1,170 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../pentabit-core/0.1.0.1/pentabit-core-0.1.0.1.module",
+    "group": "com.pentabitlabs.pentabitads",
+    "module": "pentabit-core",
+    "version": "0.1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pentabit-core-release.aar",
+          "url": "pentabit-core-android-0.1.0.1.aar",
+          "size": 329557,
+          "sha512": "89aedfe713ffb6d1172e5b8fe2be93b4ba0f1f6ccd19848a75de9dd08aab2461490ed35ef349f806238a8841ce4bb30a932fd0f9bf5a661b25a2a28060901747",
+          "sha256": "c9ce3dc1b27bcd59c5b01ca276d0d584c2b9b121f826067ff26264736c71523b",
+          "sha1": "74f0d0d965125689c67045ff6ae41ce2cac14c3c",
+          "md5": "da21467e12563615fa9b0b6c55713874"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "pentabit-core-release.aar",
+          "url": "pentabit-core-android-0.1.0.1.aar",
+          "size": 329557,
+          "sha512": "89aedfe713ffb6d1172e5b8fe2be93b4ba0f1f6ccd19848a75de9dd08aab2461490ed35ef349f806238a8841ce4bb30a932fd0f9bf5a661b25a2a28060901747",
+          "sha256": "c9ce3dc1b27bcd59c5b01ca276d0d584c2b9b121f826067ff26264736c71523b",
+          "sha1": "74f0d0d965125689c67045ff6ae41ce2cac14c3c",
+          "md5": "da21467e12563615fa9b0b6c55713874"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "pentabit-core-android-0.1.0.1-sources.jar",
+          "url": "pentabit-core-android-0.1.0.1-sources.jar",
+          "size": 46873,
+          "sha512": "2120719ea541e6357b68286b6579dbcfd65eac0141cab34b167dece850b8ea57abf526cecf909f95c94eac16a5a680afe4e1577230ad137083adc3995918fd94",
+          "sha256": "4fd7552a199cef0d7d3ad51cde0db47cde9e4bc5c2ad8bf59fff3522f930f7ce",
+          "sha1": "d488cfd246918a3b320b84705cf26590e5ee2736",
+          "md5": "cbad20bbb3e4299036a40a04f7ddd1a9"
+        }
+      ]
+    }
+  ]
+}

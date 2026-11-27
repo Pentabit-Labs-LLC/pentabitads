@@ -1,0 +1,202 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../pentabit-platform/0.1.0.1/pentabit-platform-0.1.0.1.module",
+    "group": "com.pentabitlabs.pentabitads",
+    "module": "pentabit-platform",
+    "version": "0.1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.pentabitlabs.pentabitads",
+          "module": "pentabit-core",
+          "version": {
+            "requires": "0.1.0.1"
+          }
+        },
+        {
+          "group": "app.cash.sqldelight",
+          "module": "runtime",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-darwin",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "app.cash.sqldelight",
+          "module": "native-driver",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "app.cash.sqldelight",
+          "module": "runtime",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.16.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pentabit-platform-iosX64Main-0.1.0.1.klib",
+          "url": "pentabit-platform-iosx64-0.1.0.1.klib",
+          "size": 70128,
+          "sha512": "e9cabc845a70ecd856c755eb88a82db31f69558ea49d728075af087f28a37e59677b03907395da5ebe26bd9705dc5c27b76bbc042231c352e982b98fb9945299",
+          "sha256": "a8697d542ab371cef3d3fe85d94a42224de589592cdab37828de9e5964b1424a",
+          "sha1": "c0d945c778137b487521745901abaaacf3c390b8",
+          "md5": "56da90ba1e9736a7611ecc46f8cbd0c7"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "pentabit-platform-iosx64-0.1.0.1-sources.jar",
+          "url": "pentabit-platform-iosx64-0.1.0.1-sources.jar",
+          "size": 14427,
+          "sha512": "1015aa0d6d3234d25d7217badb4e5c6ae318be6b3de50f530206d2a014cf69124e7638a9e693308cfdbc0545c029596e0060e6b7842779a76435c19d27a5d1b7",
+          "sha256": "2504287728aa940981e3b2ea80ebc257a56fb4ad48dca922a5cb10ab5c5f3eed",
+          "sha1": "37b9eabb8b99eb3dbfa5628e328273ef66261aba",
+          "md5": "d8aceb78cba0dae0dc28e9b3030afec1"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "com.pentabitlabs.pentabitads",
+          "module": "pentabit-core",
+          "version": {
+            "requires": "0.1.0.1"
+          }
+        },
+        {
+          "group": "app.cash.sqldelight",
+          "module": "runtime",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-darwin",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "app.cash.sqldelight",
+          "module": "native-driver",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "app.cash.sqldelight",
+          "module": "runtime",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.16.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pentabit-platform-iosx64-0.1.0.1-metadata.jar",
+          "url": "pentabit-platform-iosx64-0.1.0.1-metadata.jar",
+          "size": 3657,
+          "sha512": "25c983dfc04fb03be8257229a835975fbe2a3303f43e5e8f2425af4ded6d88ca1ccdb8505ae7f3aff191b11502146f6510c4300744b1e782983eaa247fd1e994",
+          "sha256": "0198d719ff27c026cfc07b5236f1e3a7b97d9271ac641a18c2655d16d45e9678",
+          "sha1": "c8c382f1e655eb1e29da5c62df6ca84178279f93",
+          "md5": "0aea8d8cb363c8dac688ed0220ae53da"
+        }
+      ]
+    }
+  ]
+}

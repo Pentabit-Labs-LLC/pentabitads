@@ -1,0 +1,219 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../pentabit-ads/0.1.0.1/pentabit-ads-0.1.0.1.module",
+    "group": "com.pentabitlabs.pentabitads",
+    "module": "pentabit-ads",
+    "version": "0.1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.pentabitlabs.pentabitads",
+          "module": "pentabit-core",
+          "version": {
+            "requires": "0.1.0.1"
+          }
+        },
+        {
+          "group": "com.pentabitlabs.pentabitads",
+          "module": "pentabit-platform",
+          "version": {
+            "requires": "0.1.0.1"
+          }
+        },
+        {
+          "group": "com.pentabitlabs.pentabitads",
+          "module": "pentabit-analytics",
+          "version": {
+            "requires": "0.1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pentabit-ads-release.aar",
+          "url": "pentabit-ads-android-0.1.0.1.aar",
+          "size": 133214,
+          "sha512": "8e18db230af6ad89b2942e10b60320e35b6e8ea445daa0b2869d473565d1edbb66428edcb18508d3a16cd8d73dc0754d1c1e312373e4db7fdfa3fd8b1999502c",
+          "sha256": "938243e5110e6140431b16bc9ada6abefa99e05e5f7247cf579c9a9c96bfc23a",
+          "sha1": "91aa39dcd98473e497c013b668d6a6e8a24ab555",
+          "md5": "f12bf2525ef44342ac6d41265438a08e"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.17.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "com.pentabitlabs.pentabitads",
+          "module": "pentabit-core",
+          "version": {
+            "requires": "0.1.0.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "com.pentabitlabs.pentabitads",
+          "module": "pentabit-platform",
+          "version": {
+            "requires": "0.1.0.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "com.pentabitlabs.pentabitads",
+          "module": "pentabit-analytics",
+          "version": {
+            "requires": "0.1.0.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "pentabit-ads-release.aar",
+          "url": "pentabit-ads-android-0.1.0.1.aar",
+          "size": 133214,
+          "sha512": "8e18db230af6ad89b2942e10b60320e35b6e8ea445daa0b2869d473565d1edbb66428edcb18508d3a16cd8d73dc0754d1c1e312373e4db7fdfa3fd8b1999502c",
+          "sha256": "938243e5110e6140431b16bc9ada6abefa99e05e5f7247cf579c9a9c96bfc23a",
+          "sha1": "91aa39dcd98473e497c013b668d6a6e8a24ab555",
+          "md5": "f12bf2525ef44342ac6d41265438a08e"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "pentabit-ads-android-0.1.0.1-sources.jar",
+          "url": "pentabit-ads-android-0.1.0.1-sources.jar",
+          "size": 29696,
+          "sha512": "ae9bc73dc8d16b5d83a268c23618708ba4ebd6d395497ca7d2944c357cb55da1ce8e1a721d2e53fe183f6f7cacd5d1534e3483a1affcb3ec090b5c7064312919",
+          "sha256": "f577c79e0e2261538a741a7956acd5d807f1623daec874e1831676c7cb7ab61b",
+          "sha1": "8d235da32793c6564cf223b37fc8a54119dd091a",
+          "md5": "65a262ab8ac33c6e8718f45ba2cc1ed9"
+        }
+      ]
+    }
+  ]
+}

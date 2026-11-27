@@ -1,0 +1,191 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../pentabit-analytics/0.1.0.1/pentabit-analytics-0.1.0.1.module",
+    "group": "com.pentabitlabs.pentabitads",
+    "module": "pentabit-analytics",
+    "version": "0.1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.pentabitlabs.pentabitads",
+          "module": "pentabit-core",
+          "version": {
+            "requires": "0.1.0.1"
+          }
+        },
+        {
+          "group": "com.pentabitlabs.pentabitads",
+          "module": "pentabit-platform",
+          "version": {
+            "requires": "0.1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pentabit-analytics-release.aar",
+          "url": "pentabit-analytics-android-0.1.0.1.aar",
+          "size": 50559,
+          "sha512": "95c975a631ba5393bf80e9f2679c813d0c5a43277881a5a9b2cfa5824347dc899229134cd797aa57a10ae49ec27ad4536f2943beff23212ad59a8c9fdd587ab6",
+          "sha256": "811dc0dbd0a51a5a73009396b6cb19f95f4a815cc72348495a9943b7e68b5afe",
+          "sha1": "3f0a8882229da1b9e6b06269857c1cc7a00340b5",
+          "md5": "0b54e0f66a263bc9f536fe28fbb54ac5"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.installreferrer",
+          "module": "installreferrer",
+          "version": {
+            "requires": "2.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "com.pentabitlabs.pentabitads",
+          "module": "pentabit-core",
+          "version": {
+            "requires": "0.1.0.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "com.pentabitlabs.pentabitads",
+          "module": "pentabit-platform",
+          "version": {
+            "requires": "0.1.0.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "pentabit-analytics-release.aar",
+          "url": "pentabit-analytics-android-0.1.0.1.aar",
+          "size": 50559,
+          "sha512": "95c975a631ba5393bf80e9f2679c813d0c5a43277881a5a9b2cfa5824347dc899229134cd797aa57a10ae49ec27ad4536f2943beff23212ad59a8c9fdd587ab6",
+          "sha256": "811dc0dbd0a51a5a73009396b6cb19f95f4a815cc72348495a9943b7e68b5afe",
+          "sha1": "3f0a8882229da1b9e6b06269857c1cc7a00340b5",
+          "md5": "0b54e0f66a263bc9f536fe28fbb54ac5"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "pentabit-analytics-android-0.1.0.1-sources.jar",
+          "url": "pentabit-analytics-android-0.1.0.1-sources.jar",
+          "size": 11044,
+          "sha512": "60f57cd0aeeb2cd281c526c8e99ebf029d8e0aa747720e0aee14aa45656bb08603301b4af25c1c890d0909af59c27dc0d5d6c8e9ba04e46d257e2ac601ecaa4a",
+          "sha256": "029a152edef730ea605dff16fb6a9017549d112bd2349b8ebec3748cf72c4a81",
+          "sha1": "84bb40607b3c7df9ae8c48279a8ac75ba00ffcee",
+          "md5": "21691fef73fa8c1daaff6ae942d72091"
+        }
+      ]
+    }
+  ]
+}

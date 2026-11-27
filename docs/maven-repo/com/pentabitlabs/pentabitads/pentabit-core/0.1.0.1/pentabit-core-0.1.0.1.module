@@ -1,0 +1,337 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.pentabitlabs.pentabitads",
+    "module": "pentabit-core",
+    "version": "0.1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pentabit-core-metadata-0.1.0.1.jar",
+          "url": "pentabit-core-0.1.0.1.jar",
+          "size": 38488,
+          "sha512": "686248b7bd624bd20ca77e9ce2ee575a7b1dbf814e2a1cdec53921fe406f62f24b6a1dc268ffa748d26736746932c18a77f635ce36b4c02578f50d7f64aa41e9",
+          "sha256": "499dcc680240e58662df826145091fb5a6cfcba2c8d02bab0a4f1c2365274bb1",
+          "sha1": "c9b8be4919a74a981a56cb55a83d536580ef5b97",
+          "md5": "c7fd7cbdd6fb62a576da10464b3959b9"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "pentabit-core-kotlin-0.1.0.1-sources.jar",
+          "url": "pentabit-core-0.1.0.1-sources.jar",
+          "size": 46821,
+          "sha512": "62b7989eda17e8c645af0bfd48131ddd8a9af248789363986c1502af8e394e0c0df300e369e700c4ea4d76edc2f523ecdfe8fa12585b4db0a3c805a0a33bac43",
+          "sha256": "4bd269e0b5a37e8a4c1bc8e7551740c4b42484e87435def5d352015db21ff3eb",
+          "sha1": "b1e9b7a446240c2b5e33032c1d0f1ddf5763603d",
+          "md5": "27612048853e0d9b0e8025c0da326575"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../pentabit-core-android/0.1.0.1/pentabit-core-android-0.1.0.1.module",
+        "group": "com.pentabitlabs.pentabitads",
+        "module": "pentabit-core-android",
+        "version": "0.1.0.1"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../pentabit-core-android/0.1.0.1/pentabit-core-android-0.1.0.1.module",
+        "group": "com.pentabitlabs.pentabitads",
+        "module": "pentabit-core-android",
+        "version": "0.1.0.1"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../pentabit-core-android/0.1.0.1/pentabit-core-android-0.1.0.1.module",
+        "group": "com.pentabitlabs.pentabitads",
+        "module": "pentabit-core-android",
+        "version": "0.1.0.1"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pentabit-core-iosarm64/0.1.0.1/pentabit-core-iosarm64-0.1.0.1.module",
+        "group": "com.pentabitlabs.pentabitads",
+        "module": "pentabit-core-iosarm64",
+        "version": "0.1.0.1"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pentabit-core-iosarm64/0.1.0.1/pentabit-core-iosarm64-0.1.0.1.module",
+        "group": "com.pentabitlabs.pentabitads",
+        "module": "pentabit-core-iosarm64",
+        "version": "0.1.0.1"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pentabit-core-iosarm64/0.1.0.1/pentabit-core-iosarm64-0.1.0.1.module",
+        "group": "com.pentabitlabs.pentabitads",
+        "module": "pentabit-core-iosarm64",
+        "version": "0.1.0.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pentabit-core-iossimulatorarm64/0.1.0.1/pentabit-core-iossimulatorarm64-0.1.0.1.module",
+        "group": "com.pentabitlabs.pentabitads",
+        "module": "pentabit-core-iossimulatorarm64",
+        "version": "0.1.0.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pentabit-core-iossimulatorarm64/0.1.0.1/pentabit-core-iossimulatorarm64-0.1.0.1.module",
+        "group": "com.pentabitlabs.pentabitads",
+        "module": "pentabit-core-iossimulatorarm64",
+        "version": "0.1.0.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pentabit-core-iossimulatorarm64/0.1.0.1/pentabit-core-iossimulatorarm64-0.1.0.1.module",
+        "group": "com.pentabitlabs.pentabitads",
+        "module": "pentabit-core-iossimulatorarm64",
+        "version": "0.1.0.1"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pentabit-core-iosx64/0.1.0.1/pentabit-core-iosx64-0.1.0.1.module",
+        "group": "com.pentabitlabs.pentabitads",
+        "module": "pentabit-core-iosx64",
+        "version": "0.1.0.1"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pentabit-core-iosx64/0.1.0.1/pentabit-core-iosx64-0.1.0.1.module",
+        "group": "com.pentabitlabs.pentabitads",
+        "module": "pentabit-core-iosx64",
+        "version": "0.1.0.1"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../pentabit-core-iosx64/0.1.0.1/pentabit-core-iosx64-0.1.0.1.module",
+        "group": "com.pentabitlabs.pentabitads",
+        "module": "pentabit-core-iosx64",
+        "version": "0.1.0.1"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../pentabit-core-jvm/0.1.0.1/pentabit-core-jvm-0.1.0.1.module",
+        "group": "com.pentabitlabs.pentabitads",
+        "module": "pentabit-core-jvm",
+        "version": "0.1.0.1"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../pentabit-core-jvm/0.1.0.1/pentabit-core-jvm-0.1.0.1.module",
+        "group": "com.pentabitlabs.pentabitads",
+        "module": "pentabit-core-jvm",
+        "version": "0.1.0.1"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../pentabit-core-jvm/0.1.0.1/pentabit-core-jvm-0.1.0.1.module",
+        "group": "com.pentabitlabs.pentabitads",
+        "module": "pentabit-core-jvm",
+        "version": "0.1.0.1"
+      }
+    }
+  ]
+}
