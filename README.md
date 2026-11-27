@@ -1,6 +1,6 @@
 # Pentabit Ads SDK
 
-[![Latest version](https://img.shields.io/github/v/tag/Pentabit-Labs-LLC/pentabitads?label=latest%20version&sort=semver&color=blue)](https://github.com/Pentabit-Labs-LLC/pentabitads/releases)
+[![Latest version](https://img.shields.io/github/v/tag/Pentabit-Labs-LLC/pentabitads?label=latest%20version&color=blue)](https://github.com/Pentabit-Labs-LLC/pentabitads/releases)
 
 Show ads from the Pentabit ad network in your Android and iOS apps. Add the SDK, initialize it once, then **load** and **show** ads.
 
